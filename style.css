@@ -1,0 +1,626 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url(Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Extra-Bold;
+  src: url(Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Black;
+  src: url(Poppins/Poppins-Black.ttf);
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(Poppins/Poppins-SemiBold.ttf);
+}
+
+header {
+  background: url(photo/262012-P4LQCB-641\ 1.png);
+  height: 840px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Poppins-Extra-Bold';
+  font-size: 48px;
+  line-height: 118.5%;
+  color: white;
+  margin: auto;
+}
+
+#secondText {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-family: 'Poppins-Medium';
+  letter-spacing: 18px;
+  line-height: 0;
+  margin: auto;
+}
+
+p {
+  color: white;
+  font-family: 'Poppins-Regular';
+  font-size: 14px;
+  line-height: 22px;
+  margin: auto;
+}
+
+#text_logo {
+  font-family: 'Poppins-Bold';
+  font-size: 48px;
+  line-height: 0;
+  margin: auto;
+  padding-top: 8px;
+  text-align: left;
+  margin-left: 0;
+}
+
+.column {
+  padding-left: 14px;
+  height: 81px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.main {
+  padding-top: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.text_header {
+  padding-top: 94px;
+  padding-bottom: 27px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.p_width {
+  width: 520px;
+}
+
+.symbols {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.all_symbols {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 130px;
+}
+
+.primary-button {
+  margin-top: 50px;
+  border: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins-Bold';
+  font-size: 18px;
+  line-height: 22px;
+  padding: 20px 59px;
+  background: #50B2EA;
+  box-shadow: 0px 20px 40px rgba(129, 209, 255, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.secondary-button {
+  border: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins-Bold';
+  font-size: 14px;
+  line-height: 22px;
+  padding: 16px 52px;
+  background: #50B2EA;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.section_2 {
+  background: url(photo/Group\ 28.png);
+  height: 390px;
+  padding-top: 50px;
+  padding-bottom: 38px;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.romb {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 82px;
+}
+
+.section_3 {
+  background: url(photo/Rectangle\ 9.png);
+  height: 284px;
+  padding-top: 32px;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.subtitle {
+font-family: 'Poppins-Bold';
+font-size: 18px;
+line-height: 22px;
+color: #50B2EA;
+}
+
+.card .subtitle {
+  margin-left: 0;
+}
+
+#p_black {
+  color: #19435A;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.div_text {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  width: 180px;
+}
+
+.romb_flex {
+  display: flex;
+  flex-direction: row;
+  gap: 82px;
+  align-items: center;
+}
+
+.section_4 {
+  background: #50B2EA;
+  height: 718px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+  gap: 30px;
+  width: 577px;
+  height: 233px;
+  background-color: white;
+  box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+  border-radius: 40px;
+  box-sizing: border-box;
+}
+
+#p_black_1 {
+  font-family: 'Poppins-Regular';
+  font-size: 14px;
+  line-height: 22px;
+  color: #19435A;
+  text-align: left;
+  margin: 0;
+}
+
+.text_in_card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 13px;
+}
+
+.star {
+  width: 114px;
+height: 18px;
+}
+
+.block_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+align-items: flex-start;
+gap: 30px;
+}
+
+.cards {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.section_5 {
+  height: 520px;
+  background: #FFFFFF;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_5 h1 {
+  color: #50B2EA;
+  padding-bottom: 50px;
+}
+
+form .typebox .input-box input{
+  width: 374px;
+  border: none;
+  border-radius: 35px;
+  font-family: 'Poppins-Regular';
+  font-size: 18px;
+  line-height: 27px;
+  height: 56px;
+  background-color: #50B2EA;
+  padding: 0px;
+  padding-left: 16px;
+}
+
+form .typebox .input-box input::placeholder {
+  color: #FFFFFF;
+}
+
+form .button input {
+  width: 374px;
+  border: 3px solid #50B2EA;
+  border-radius: 61px;
+  font-family: 'Poppins-Regular';
+  font-size: 18px;
+  line-height: 27px;
+  height: 56px;
+  text-align: center;
+  color: #50B2EA;
+  background-color: #FFFFFF;
+}
+
+.typebox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+footer {
+  height: 80px;
+background: #19435A;
+}
+
+.flex_4 {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+}
+
+.flex_4 p {
+  margin: 0;
+}
+
+.blue p {
+  color: black;
+}
+
+.flex_4 img {
+  height: 18px;
+  width: 18px;
+}
+
+.flex_5 {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#p_white {
+  color: #FFFFFF;
+}
+
+.block_left {
+  background: #F2F2F2;
+  height: 840px;
+  display: flex;
+  width: 52%;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+}
+
+.blue {
+  width: 640px;
+  background: #50B2EA;
+  border: 4px 0px 4px 4px solid #F2F2F2;
+  border-radius: 40px 0px 0px 40px;
+  padding: 93px 45px;
+}
+
+.blue h1 {
+  padding-bottom: 20px;
+}
+
+.block_right {
+  background: #50B2EA;
+  height: 840px;
+  display: flex;
+  width: 48%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.img_1 {
+  border-radius: 0px 44px 44px 0px;
+  border: 4px solid #F2F2F2;
+  border-left: 0px;
+}
+
+.section_6 {
+  display: flex;
+  flex-direction: row;
+}
+
+ #example {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+margin-top: -90px;
+ }
+
+
+ @media (max-width: 800px) {
+  .romb_flex {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;}
+
+    .romb {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+    .section_2 {
+      background: url(photo/Group\ 28.png);
+      height: auto;
+      padding-top: 50px;
+      padding-bottom: 38px;
+      gap: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+
+    .section_3 {
+      height: auto;
+      padding-bottom: 50px;
+    }
+
+
+    .section_4 {
+      padding: 50px 16px;
+      height: auto;
+    }
+
+    .block_1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 16px;
+      gap: 30px;
+      width: auto;
+      height: auto;
+      background-color: white;
+      box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+      border-radius: 32px;
+      box-sizing: border-box;
+    }
+
+    .all_symbols {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      gap: 60px;
+    }
+
+    .section_6 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+
+    .block_left {
+      background: #F2F2F2;
+      height: auto;
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 50px 16px;
+    }
+
+    .blue {
+      width: auto;
+      background: #50B2EA;
+      border: 4px 0px 4px 4px solid #F2F2F2;
+      border-radius: 40px;
+      padding: 93px 45px;
+    }
+
+    .block_right {
+      padding-top: 50px;
+      background: #50B2EA;
+      height: auto;
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .img_1 {
+      border-radius: 44px 44px 44px 44px;
+      border: 4px solid #F2F2F2;
+    }
+
+    #example {
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      transform: translate(-50%, -50%);
+       margin-top: -90px;
+     }
+  }
+
+
+  /* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
